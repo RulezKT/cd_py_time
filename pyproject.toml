@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cd-py-time"
+version = "0.1.0"
+description = ""
+authors = ["RR <rudakov.de@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cd-py-types = {git = "https://github.com/RulezKT/cd_py_types.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
